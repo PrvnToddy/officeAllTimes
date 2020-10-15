@@ -1,0 +1,72 @@
+<!-- <div class="bs-example">
+  <nav class="navbar navbar-expand-md navbar-dark nvrbk" id="nvrbk">
+    <a href="#" class="navbar-brand"><img src="assets/logo.png" width=60></a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav">
+        <a href="#" class="nav-item nav-link active ">Home</a>
+        <a href="#" class="nav-item nav-link">About</a>
+        <a href="#" class="nav-item nav-link">Services</a>
+        <a href="#" class="nav-item nav-link">Facility</a>
+        <a href="#" class="nav-item nav-link">Business with us</a>
+        <a href="#" class="nav-item nav-link">Blog</a>
+        <a href="#" class="nav-item nav-link">Clients</a>
+        <a href="#" class="nav-item nav-link">Contact</a>
+      </div>
+      <form class="form-inline ml-auto">
+        <a href="tel:555-555-5555"> <i class="fa fa-phone" style="font-size:20px;color:white"></i>
+          044-2587412</a>
+        <a href="info@officealltime.com"> <i class="fa fa-envelope" style="font-size:20px;color:white"></i>
+          info@officealltime.com </a>
+
+      </form>
+    </div>
+  </nav>
+</div> -->
+<div class="bs-example">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark nvrbk" id="nvrbk">
+    <a href="#" class="navbar-brand"><img src="assets/logo.png" width=60></a>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample03"
+      aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation" (click)="change()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse collapse" id="navbarsExample03" [ngClass]="show ? 'hide' : 'show'">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-item nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-item nav-link">Services</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-item nav-link">Facility</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-item nav-link">Business with us</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-item nav-link">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-item nav-link">Clients</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-item nav-link">Contact</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-md-0">
+        <a href="tel:555-555-5555"> <i class="fa fa-phone" style="font-size:20px;color:white"></i>
+          044-2587412</a>
+        <a href="info@officealltime.com"> <i class="fa fa-envelope" style="font-size:20px;color:white"></i>
+          info@officealltime.com </a>
+      </form>
+    </div>
+  </nav>
+</div>

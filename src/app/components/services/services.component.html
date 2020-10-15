@@ -1,0 +1,118 @@
+<div class="jumbotron mb-0">
+  <div class="col-sm-12">
+    <h3 class="title text-center mb-3">OFFICE TYPES</h3>
+  </div>
+  <div class="row bg-inverse">
+    <div class="col-sm-3">
+      <div class="card img-hover-zoom--colorize">
+        <img src="assets/blog-5.webp" alt="Another Image zoom-on-hover effect" style="width:100%">
+        <a href="#" class="btn btn-clr">Go somewhere</a>
+        <div class="p-3">
+          <h4><b>PRIVATE OFFICE</b></h4>
+          <p class="pb-0 alligntxt">Are you looking out for private workspaces that maintain your business
+            confidentiality?
+            Want to have separate work set up dedicated to only your co-working employees? Then, a private office
+            workstation setup is the right choice for you!
+          </p>
+          <div [ngClass]="{'show-less': showPrivateOffice}">
+            <p class="pb-0">Office All Time facilitates you with conventional sophisticated business space requirements
+              that include exclusive interiors with its dedicated amenities. Own your private cabins that are
+              aesthetically designed with brand-specific interiors to acquire a distraction-proof environment. </p>
+          </div>
+          <a class="alligntxt" (click)="alterDescriptionText1()">
+            <div class="cursor">
+              {{ showPrivateOffice ? 'Show All': 'Show Less' }}
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+
+      <div class="card img-hover-zoom--colorize">
+        <img src="assets/blog-5.webp" alt="Avatar" style="width:100%">
+        <a href="#" class="btn btn-clr">Go somewhere</a>
+        <div class="p-3">
+          <h4><b>VIRTUAL OFFICE</b></h4>
+          <p class="pb-0 alligntxt">In the current scenario, as business entrepreneurs, startups, freelancers, and SME’s
+            your search ends here for virtual office put ups that have flexible utilities! We at Office All Time, help
+            you to make this increasingly demanding</p>
+          <div [ngClass]="{'show-less': showVIRTUALOFFICE}">
+            <p class="pb-0"> choice, at affordable prices. We can assist you to have your individual registered office
+              address for business legalities, personalized mail & courier management in your absence. In addition to
+              that, you can have added benefit of meeting room spaces that can be booked for your clientele
+              collaboration.</p>
+          </div>
+          <a class="alligntxt" (click)="alterDescriptionText2()">
+            <div class="cursor">
+              {{ showVIRTUALOFFICE ? 'Show All': 'Show Less' }}
+            </div>
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="col-sm-3">
+
+      <div class="card img-hover-zoom--colorize">
+        <img src="assets/blog-5.webp" alt="Avatar" style="width:100%">
+        <a href="#" class="btn btn-clr">Go somewhere</a>
+        <div class="p-3">
+          <h4><b>CUSTOMIZED OFFICE</b></h4>
+          <p class="pb-0 alligntxt">Are you one of those who like to design the office as per your brand’s entity? Then,
+            Office All Time’s customized office solutions can suffice your exact requirement! Choose a prime workspace &
+            personalize the surroundings as per your </p>
+          <div [ngClass]="{'show-less': showCUSTOMIZEDOFFICE}">
+            <p> esteemed preferences to make it feel vibrant to fill-in with desired positivity! You can collaborate
+              with us to renovate your current business workstations. Also, with the client’s preferences, we provide
+              solutions with empty space/cabins at economical & reasonable costs.</p>
+          </div>
+          <a class="alligntxt" (click)="alterDescriptionText3()">
+            <div class="cursor">
+              {{ showCUSTOMIZEDOFFICE ? 'Show All': 'Show Less' }}
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-sm-3">
+
+      <div class="card img-hover-zoom--colorize">
+        <img src="assets/blog-5.webp" alt="Avatar" style="width:100%">
+        <a href="#" class="btn btn-clr">Go somewhere</a>
+        <div class="p-3">
+          <h4><b>CUSTOMIZED FLOOR</b></h4>
+          <p class="pb-0 alligntxt">Now office space management can get seamless & ensure to have the best Return on
+            Investment. We are your one-stop solution for a professional physical office with pre-defined business space
+            conditions. The customized floor provider</p>
+          <div [ngClass]="{'show-less': showCUSTOMIZEDFLOOR}">
+            <p class="pb-0"> at Office All Time are categorically designed for business corporate and affluent class!
+              Type A
+              Get an array of complete interiors crafted with expertise professionals through us with per square feet
+              space charges! Design your beautiful workplace with distinctive interior works and other improvements for
+              maximizing employee comfort levels & harnessed productivity!
+              Type B
+              If you are planning to organize a manageable distributed workplace with complete office move-in solutions,
+              choose a fully functional workspace with creative interiors specially designed with additional EB and
+              housekeeping services. Also, get other added perks like Security, Cafeteria, Water, Internet & all other
+              dedicated costs/ services.
+            </p>
+          </div>
+
+          <a class="alligntxt" (click)="alterDescriptionText4()">
+            <div class="cursor">
+              {{ showCUSTOMIZEDFLOOR ? 'Show All': 'Show Less' }}
+            </div>
+          </a>
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>

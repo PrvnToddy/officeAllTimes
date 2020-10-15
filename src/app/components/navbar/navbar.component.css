@@ -1,0 +1,18 @@
+.bs-example {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nvrbk {
+  background-color: #24292A;
+}
+
+a {
+  color: #FAD11F;
+  padding-left: 10px;
+}
+
+.hide {
+  display: none;
+}

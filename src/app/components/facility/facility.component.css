@@ -1,0 +1,44 @@
+.jumbotron
+{
+    background-color: white;
+    margin: 30px;
+   
+}
+.title
+{
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    color: #474747;
+    text-transform: uppercase;
+    margin: 0 0 12px 0;
+    position: relative;
+}
+
+.fa-wifi ,.fa-lock,.fa-television,.fa-comments-o,.fa-gamepad,.fa-coffee {
+    color: #FAD11F;
+  }
+  .sclr
+  {
+    
+      font-family: "Montserrat", Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      color: #807d7d;
+      letter-spacing: 1px;
+  }
+  .card
+  {
+      border: none;
+  }
+  
+
+  .alligntxt
+  {
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    color: #807d7d;
+    letter-spacing: 1px;
+    line-height: 27px;
+  }
+  

@@ -1,0 +1,77 @@
+h3{
+  display: block;
+  font-size: 20px;
+  font-weight: 800;
+  color: #474747;
+  text-transform: uppercase;
+  margin: 0 0 12px 0;
+  position: relative;
+}
+h4{
+
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+  color: #474747;
+  text-transform: uppercase;
+  margin: 0 0 12px 0;
+  position: relative;
+}
+.scrolling-wrapper
+{
+  display: none;
+}
+.jumbotron
+{
+    background-color: white;
+    margin: 30px;
+   
+}
+
+.fa-wifi ,.fa-lock,.fa-television,.fa-comments-o,.fa-gamepad,.fa-coffee {
+    color: #FAD11F;
+  }
+  .sclr,h4
+  {
+    
+      font-family: "Montserrat", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      color: #323232;
+      letter-spacing: 0.4px;
+  }
+img
+{
+  max-width: 100%;
+    height: auto;
+}
+
+.card
+{
+  margin-bottom: 10px;
+}
+@media only screen 
+    and (max-device-width : 480px)
+{
+  .jumbotron
+  {
+    display: none;
+  }
+  .scrolling-wrapper
+  {
+    display: block;
+    
+      background-color: white;
+      display: flex;
+      overflow-x: auto;
+      
+  }
+
+  .scrolling-wrapper, img {
+    margin-right:15px;
+}
+
+.scrolling-wrapper::-webkit-scrollbar
+{
+  display: none;
+}
+}
